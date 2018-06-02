@@ -23,3 +23,9 @@
   <h4>Obsah Kapitoly:</h4>
   {{ toc }}
 {%- endif %}
+
+
+{%- if pagename == "index"%}
+  <h4>Kapitoly:</h4>
+  {{ toctree() }}
+{%- endif %}

@@ -144,13 +144,12 @@ Semafór
 """""""
 
 
-
-
-
-
-
-
-
+.. raw:: html
+  
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+  <div id="demo" class="collapse">
+  Lorem ipsum dolor text....
+  </div> 
 
 
 
