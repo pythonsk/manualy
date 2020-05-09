@@ -113,7 +113,7 @@ Po úspešnej inštácii môžeš zapojiť svoje zariadenie. Následne budeš mu
 Na Linuxe nie je potrebné inštalovať žiaden driver, avšak na prístup k zariadeniu si budeš musieť nastaviť isté práva. Otvor konzolu a zadaj príkaz::
 
   Fedora:
-  $ sudo usermod -a -G uupc,dialout,lock $(whoami)
+  $ sudo usermod -a -G dialout,lock $(whoami)
 
   Debian/Ubuntu:
   $ sudo usermod -a -G dialout $(whoami)
